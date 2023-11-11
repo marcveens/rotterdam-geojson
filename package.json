@@ -1,0 +1,30 @@
+{
+  "name": "rotterdam-geojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node get.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcveens/rotterdam-geojson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcveens/rotterdam-geojson/issues"
+  },
+  "homepage": "https://github.com/marcveens/rotterdam-geojson#readme",
+  "dependencies": {
+    "capitalize": "^2.0.4",
+    "node-fetch": "^2.7.0",
+    "osmtogeojson": "^3.0.0-beta.5",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "@types/capitalize": "^2.0.2",
+    "@types/node-fetch": "^2.6.9",
+    "ts-node": "^10.9.1"
+  }
+}
